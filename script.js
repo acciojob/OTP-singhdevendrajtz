@@ -17,10 +17,10 @@ boxes.forEach((x,y)=>{
 		 	boxes[y].previousElementSibling.focus()
 		 }
 		//console.log(KeyID)
-			
+					
 	})
 });
-function focused()
-{
-	boxes[0].style.backgroundColor="red"
-}
+ function focused(x)
+ {
+console.log(x.value)
+ }

@@ -17,3 +17,6 @@
 	padding-bottom:100px
 	
 }
+.code:focus{
+	background-color:blue;
+}
