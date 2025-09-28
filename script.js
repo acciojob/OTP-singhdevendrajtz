@@ -15,7 +15,7 @@ boxes.forEach((x,y)=>{
 		 {
 		 	boxes[y].previousElementSibling.focus()
 		 }
-		console.log(KeyID)
+		//console.log(KeyID)
 			
 	})
 });
