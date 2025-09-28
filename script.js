@@ -22,5 +22,5 @@ boxes.forEach((x,y)=>{
 });
 function focused()
 {
-	
+	boxes[0].style.backgroundColor="red"
 }
