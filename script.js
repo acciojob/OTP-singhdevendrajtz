@@ -4,7 +4,7 @@ boxes.forEach((x,y)=>{
 	boxes[y].addEventListener('keyup',function(){
 		if(boxes[y].length!=0 && y!=boxes.length-1)
 		{
-			boxes[y].nextElementSibling.focus()
+			boxes[y].nextElementSibling.focus();
 		}
 	})
 });
@@ -14,13 +14,11 @@ boxes.forEach((x,y)=>{
 		 if(KeyID==8 && y!=0)
 		 {
 			// boxes[y].value="";
-		 	boxes[y].previousElementSibling.focus()
+		 	boxes[y].previousElementSibling.focus();
 		 }
 		//console.log(KeyID)
 					
 	})
 });
- function focused(x)
- {
-console.log(x.value)
- }
+
+ window.addEventListener('load', () => boxes[0].focus());
