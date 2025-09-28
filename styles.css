@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.code_containers{
+.code-containers{
 	display:flex;
 	direction:row;
 	justify-content:center;
