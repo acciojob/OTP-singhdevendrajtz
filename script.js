@@ -13,9 +13,14 @@ boxes.forEach((x,y)=>{
 		let KeyID = event.keyCode;
 		 if(KeyID==8 && y!=0)
 		 {
+			// boxes[y].value="";
 		 	boxes[y].previousElementSibling.focus()
 		 }
 		//console.log(KeyID)
 			
 	})
 });
+function focused()
+{
+	
+}
